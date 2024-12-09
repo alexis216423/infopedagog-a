@@ -1,0 +1,62 @@
+/* Created by ARDORA - http://www.webardora.net */
+body {
+font-family:'Times New Roman', Times, serif;
+background-image:url("images/UCE 2.png");
+background-position:center;
+background-repeat:repeat;
+background-color:#FFFFFF;
+	--c_color:#CCCCFF;
+	--c_but:#FF9933;
+	text-align: justify;
+	font-size: small;text-align: justify;
+	color:#CC66FF;overflow:hidden;padding: 5px;
+	min-width: 200px;
+	min-height: 200px;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	
+}
+#menuPrincipal {float: left;margin: 0px auto;text-transform: uppercase;font-weight: bold;font-size: 14px;color: #323B2E;width: 100%;border-top: dotted 1px white;}
+#menuPrincipal ul {margin: 0;list-style: none;padding:5px 0 0 0;background-color: var(--c_color);}
+#menuPrincipal a {padding: 5px 5px 0 5px;text-align: center;text-decoration: none;text-transform: uppercase;font-weight: bold;color: #FFFFFF;text-shadow: 0px 1px 1px #000;}
+#menuPrincipal a:hover {background-color:#FFFFFF;color: var(--c_but);text-shadow: none;}
+#header {height: 95px;padding: 0;border: 10px solid #FFFFFF;border-bottom: none;background:var(--c_color);margin: 0 20px 0 auto;}
+#header h1 {float: left;margin: 10px 0 0 10px;font-size:42px;letter-spacing: -3px;color:var(--c_but);text-shadow: 1px 1px 1px #FFF;}
+#header h2 {float: right;margin: 30px 0 0 0;font-size: 18px;color:#ffffff;}
+#header h3 {float: right;font-size: 20px;color: var(--c_but);margin:2px 2px 0 0;}
+a {color: #323B2E;text-decoration: none;}
+a:hover {color: var(--c_but);text-decoration: none;}
+#areaContido{float: left;width: 780px;padding: 0 10px 0 10px;color:#323B2E;}
+#area_applet {width: auto;margin-bottom:10px;}
+#area_applet h5 {padding:0; margin:0;}
+#content {border: 10px solid var(--c_color);border-top: none;background:#FFFFFF;}
+#content h2 {margin-bottom: 5px;font-size: 18px;}
+#menu{float: right;width: 160px;margin-top: 20px;padding: 0 10px 0 10px;color:var(--c_color);}
+#menu h2{text-shadow: 0px 1px 1px #000;border-bottom: solid 1px;}
+#footer {color:#ffffff;width: calc(100% - 20px);}
+#footer p {text-align:left;padding: 0;font-size: 10px;}
+#areaMedia{top:120px;}
+#page{width: calc(100% - 20px);display:table; height:auto;table-layout: fixed;}
+#content{display: flex;}
+#content, #menu, #areaContido, #header{box-sizing: border-box;}
+#areaContido{flex: 1;}
+td p{margin:2px 0;}
+.but{font-size: 20px;color: var(--c_but);border: solid;border-radius: 30px;background-color: white;border-width: 2px;padding: 0 2px;}
+.but:hover{color: white;background-color: var(--c_but);}
+#suggestPost{
+top:0;right:0;
+position: fixed;height:25px;width:25px;}
+#suggestPost a:hover{
+background-image:url(images/bAvaliaSD2.png);
+height:25px;width:25px;}
+#suggestPost a{cursor: pointer;
+background-image:url(images/bAvaliaSD.png);
+display:block;height:25px;width:25px;}
+object{overflow:hidden;}
+#backmodal{background-color:rgba(0,0,0, 0.5);text-align:center;}
+#modalw{font-size: 20px;display: inline-table;margin-top:10%;padding: 25px;text-align:justify;font-family: sans-serif;background-color:rgba(255,255,255,1)}
+#cancelbut, #okbut{border-radius:8px;font-size: 28px;color: white;margin-top: 10px; cursor: pointer;}
+#cancelbut:hover, #okbut:hover{box-shadow: inset 0px 0px 20px rgba(0,0,0,1);}
+#cancelbut{padding: 2px 5px 5px 5px;background-color: red;float: left;}
+#okbut{padding: 2px 8px 5px 8px;background-color: green;float:right;}
